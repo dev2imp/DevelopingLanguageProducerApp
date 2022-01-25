@@ -20,3 +20,4 @@ I have decided to make real app to solve a problem. I have also decided to Make 
 
 >[PierfrancescoSoffritti](https://github.com/PierfrancescoSoffritti/android-youtube-player) is a library that is playing youtube videos. 
 
+> [Lottie Animaiton Library](https://github.com/airbnb/lottie-android) is a library to make animations 
