@@ -22,6 +22,6 @@ I have decided to make real app to solve a problem. I have also decided to Make 
 
 > [Lottie Animaiton Library](https://github.com/airbnb/lottie-android) is a library to make animations 
 
-> Singleton to create one and use everywhere
+> Singleton to create once and use everywhere
 
 > [Jsoup](https://jsoup.org/download) to grab data from web page. 
