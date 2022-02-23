@@ -25,3 +25,5 @@ I have decided to make real app to solve a problem. I have also decided to Make 
 > Singleton to create once and use everywhere
 
 > [Jsoup](https://jsoup.org/download) to grab data from web page. 
+
+> Unit Testing/Junit testing
