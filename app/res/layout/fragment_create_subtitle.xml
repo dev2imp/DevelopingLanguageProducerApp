@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".view.Producer.CreateSubtitle.CreateSubtitleFragment"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/YoutubeUrlEditText"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/PasteButton"
+            android:text="@string/PasteContent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/purple_700"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/SearchUrlImageView"
+            android:layout_width="50dp"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/YoutubeUrlEditText"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="true"
+        android:hint="@string/YouTubeUrl"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

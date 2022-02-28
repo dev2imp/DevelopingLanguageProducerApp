@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/border_bottom__gray"
+    android:weightSum="100"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="1dp"
+        android:layout_weight="20"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/SubTime"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="1dp"
+        android:layout_weight="70"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="@string/SubText"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/SubText"
+            android:layout_marginLeft="1dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:id="@+id/SubDelete"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_height="40dp"/>
+</LinearLayout>

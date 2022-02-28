@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/consumerFragment">
+    <fragment
+        android:id="@+id/consumerFragment"
+        android:name="com.developeros.languageproducer.view.Consumer.ConsumerFragment"
+        android:label="fragment_consumer"
+        tools:layout="@layout/fragment_consumer" >
+        <action
+            android:id="@+id/action_consumerFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.developeros.languageproducer.view.Settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/producerFragment"
+        android:name="com.developeros.languageproducer.view.Producer.ProducerFragment"
+        android:label="fragment_production"
+        tools:layout="@layout/fragment_production" >
+        <action
+            android:id="@+id/action_producerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_producerFragment_to_createSubtitleFragment"
+            app:destination="@id/CreateSubtitleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.developeros.languageproducer.view.Producer.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_producerFragment"
+            app:destination="@id/producerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.developeros.languageproducer.view.Producer.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_producerFragment"
+            app:destination="@id/producerFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CreateSubtitleFragment"
+        android:name="com.developeros.languageproducer.view.Producer.CreateSubtitle.CreateSubtitleFragment"
+        android:label="fragment_create_subtitle"
+        tools:layout="@layout/fragment_create_subtitle" >
+
+    </fragment>
+
+</navigation>

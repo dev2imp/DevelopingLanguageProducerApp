@@ -1,0 +1,52 @@
+<resources> <string name="app_name">Lang App</string>
+    <!--Consumer -->
+    <string name="ConsumerDataNotLoad">
+        Wait little bit....then \n
+        Make Sure you have selected a language \n
+        or Check your Internet Connection!
+    </string>
+    <!--Settings -->
+    <string name="SourceLanguage">Known Language</string>
+    <string name="TargetLanguage">Target Language</string>
+    <string name="Add">Add</string>
+
+    <!--Dialogs -->
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+    <string name="DeleteTaskDialog"> Do you want to Delete Item?</string>
+    <!--Producer -->
+    <string name="UploadNewVideoFragment">Upload Video With Subtitle</string>
+    <string name="CreateSubtitleFragment">Create Subtitle for a Video</string>
+    <string name="Upload">Upload</string>
+    <string name="SignOut">Sign Out!</string>
+    <!--Fragment Create Subtitle -->
+    <string name="YouTubeUrl">https://youtu.be/....</string>
+    <string name="SaveWork" >Save Work</string>
+    <string name="ExportFile" >Export File</string>
+    <string name="ImportFile" >Import File</string>
+    <string name="DeletePreviousWork" >Delete Work</string>
+    <string name="PasteContent">Paste</string>
+    <string name="SubText">type here...</string>
+    <string name="EnterFileName">Type File Name</string>
+    <string name="Save">Save</string>
+
+    <!--Login -->
+    <string name="LoginButton">Login</string>
+    <string name="LoginEmail">Username@gmail.com</string>
+    <string name="LoginPassword">Password</string>
+    <!--Register -->
+    <string name="RegisterButton">Register</string>
+    <string name="RegisterUsername">Username</string>
+    <string name="RegisterEmail">Username@gmail.com</string>
+    <string name="RegisterPassword">Password</string>
+    <string name="AttachFile">Attach File</string>
+    <string name="VideoTitle">Video Title</string>
+    <string name="TitleLength">**Title minimum 3 letters </string>
+    <string name="UrlError">**Video Url cant be empty!</string>
+    <string name="YoutubeUrlOnly">**Only Youtube Videos are supported!</string>
+    <string name="AtLeatOneLanguage">**Select atleast One language</string>
+    <string name="MaxFileSize200kb">max 200 kb file size supported!</string>
+
+</resources>
+
+
