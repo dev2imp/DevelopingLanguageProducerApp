@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071944760835",
+    "project_id": "languages-77045",
+    "storage_bucket": "languages-77045.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071944760835:android:cc2a3cbb90e9411bdc1836",
+        "android_client_info": {
+          "package_name": "com.developeros.languageproducer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071944760835-uto8ivo7vamfd0genkpmnnspmj1mc1d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytq_RuBFzQtxFtLtfgSl7f5DiaPm7gCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071944760835-uto8ivo7vamfd0genkpmnnspmj1mc1d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
